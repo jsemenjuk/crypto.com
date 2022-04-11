@@ -20,7 +20,7 @@ There is a Parameterized test that takes in three arguments - instrument name, i
 A number of tests fail when the 'validateMissingTrades' flag is true because of inconsistencies between the Candlesticks and the Trade count.
 There are also a few tests that fail for the ONE_MONTH interval. The assumption is that the ONE_MONTH interval starts on the 1st of the month. However, some data from the Crypto.com API proves that this assumption is false.
 
-The SEVEN_DAYS interval test errors are legit. The BTC_USDT is breaking due to a 'volume' mismatch. The CRO_USDT is breaking to do a 'low price' mismatch.
+The SEVEN_DAYS interval test errors are legit. The BTC_USDT is breaking due to a 'volume' mismatch. The CRO_USDT is breaking due to a 'low price' mismatch.
 
 #### Documentation
 There is a mismatch between the API Documentation for 'public/get-trades' endpoint and actual data seen on 'https://uat-api.3ona.co/v2/public/get-trades'. There is additional 'result' wrapper above 'data' node on the 'uat-api' environment.
