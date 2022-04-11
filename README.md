@@ -39,7 +39,7 @@ There is a mismatch between the API Documentation for 'public/get-trades' endpoi
 }
 ```
 
-####### UAT-API Response Sample
+###### UAT-API Response Sample
 ```
 {
   "code": 0,
